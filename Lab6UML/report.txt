@@ -1,0 +1,12 @@
+ The Umple code has a lot more going on than the simple code I wrote. 
+ It is very cool in that it also throws in checks for exceptions and additional methods to get and set each variable.
+ It would be especially useful when making a class structure with lots of variables. 
+ This way, I wouldn't have to make all the methods to get and set each variable by hand, which would save a lot of time.
+ However, I would not want to always use UMPLE, because it is always easier to read and understand your own code.
+ For the associations, it is interesting that it not only gives each Customer an Account, but also each Account a Customer. 
+ It also gives each Customer a List of Orders, which would be a good way of storing them.
+ However, that is important to keep in mind, in case I had wanted to use something else to store the Orders, such as an array.
+ It is really cool that it was able to generate all that java code just from 25 lines of UML code.
+ I also like that it makes a toString method for you. 
+ It also has multiple constructors for Customer and Account, which would be nice for the client so they can have some options.
+ 

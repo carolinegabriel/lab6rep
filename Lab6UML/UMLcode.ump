@@ -1,0 +1,25 @@
+class Customer
+{
+  name;
+  address;
+  int creditCard;
+  Account myAccount;
+  1 -- * Order;
+}
+
+class Account
+{
+  int accountNumber;
+  int rewardPoints;
+  username;
+  password;
+  1 -- 1 Customer;
+}
+
+class Order
+{
+  int orderNumber;
+  dateOfOrder;
+  double price;
+  int numberOfItems;
+}
